@@ -34,7 +34,21 @@ const Nav = ()=>{
                             <li>Beverages</li>
                         </ul>
                     </li>
-                    <li className="navhover">AutoMobile</li>
+                    <li className="dropdown navhover">
+                        AutoMobile
+                        <ul className="dropdown-menu">
+                            <li>Cars</li>
+                            <li>Bikes</li>
+                            <li>Scooters</li>
+                            <li>Electric Vehicles</li>
+                            <li>Trucks</li>
+                            <li>Auto Parts</li>
+                            <li>Tyres</li>
+                            <li>Accessories</li>
+                            <li>Car Care</li>
+                            <li>Helmets</li>
+                        </ul>
+                    </li>
                     <li className="navhover">RealState</li>
                 </ul>
             </div>
