@@ -49,7 +49,16 @@ const Nav = ()=>{
                             <li>Helmets</li>
                         </ul>
                     </li>
-                    <li className="navhover">RealState</li>
+                    <li className="navhover dropdown">
+                        Books
+                        <ul className="dropdown-menu">
+                            <li>উপন্যাস</li>
+                            <li>রহস্য</li>
+                            <li>কল্প-বিজ্ঞান</li>
+                            <li>ছোটগল্প</li>
+                            <li>কবিতা</li>
+                        </ul>
+                        </li>
                 </ul>
             </div>
             <input type="search" name="" id="" />
