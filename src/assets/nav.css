@@ -32,18 +32,70 @@ ul{
 }
 
 
-#signup{
-    width: 100px;
-    height: 30px;
+/* Search Box */
+#search-box{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+}
+
+#search{
+    width: 250px;
+    height: 40px;
+    border: 2px solid #0689a3;
+    border-right: none;
+    padding: 0 15px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 15px;
+}
+
+#search:focus{
+    box-shadow: 0 0 5px rgba(6,137,163,0.5);
+}
+
+#search-btn{
+    height: 44px;
+    width: 50px;
+    border: none;
+    background-color: #0689a3;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#search-btn:hover{
+    background-color: #046d82;
+}
+
+/* Sign Up Button */
+#sign{
+    text-decoration: none;
+    margin-top: 0px;
+    display: flex;
     align-items: center;
 }
-#sign{
-    margin-top: 30px;
-    display: flex;
-    height: 40px;
-    justify-content: flex-end;
+
+#signup{
+    width: 120px;
+    height: 42px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0689a3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#signup:hover{
+    background-color: #045f72;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 #com ul {

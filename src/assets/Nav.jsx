@@ -61,9 +61,17 @@ const Nav = ()=>{
                         </li>
                 </ul>
             </div>
-            <input type="search" name="" id="" />
-            <Link to='/Register' id="sign">
-                <form action="" method="get"id="signup">Sign Up</form>
+            <div id="search-box">
+                <input
+                    type="search"
+                    placeholder="Search products..."
+                    id="search"
+                />
+                <button id="search-btn">🔍</button>
+            </div>
+
+            <Link to="/Register" id="sign">
+                <button id="signup">Sign Up</button>
             </Link>
         </div>
 
