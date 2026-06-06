@@ -17,8 +17,8 @@ nav,ul,#navmain{
 }
 
 #logo{
-    height: 170px;
-    width: 170px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -71,31 +71,46 @@ ul{
     background-color: #046d82;
 }
 
-/* Sign Up Button */
-#sign{
-    text-decoration: none;
-    margin-top: 0px;
+#auth-buttons{
     display: flex;
+    gap: 10px;
     align-items: center;
+    margin-left: 20px;
 }
 
+#auth-buttons a{
+    text-decoration: none;
+}
+
+#login-btn,
 #signup{
-    width: 120px;
-    height: 42px;
-    border: none;
-    border-radius: 25px;
-    background-color: #0689a3;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.2s;
+}
+
+/* Login */
+#login-btn{
+    border: 1px solid #0689a3;
+    background: white;
+    color: #0689a3;
+}
+
+/* Sign Up */
+#signup{
+    border: none;
+    background: #0689a3;
+    color: white;
+}
+
+#login-btn:hover{
+    background: #f0fafa;
 }
 
 #signup:hover{
-    background-color: #045f72;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: #046d82;
 }
 
 #com ul {

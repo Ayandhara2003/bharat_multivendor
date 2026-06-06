@@ -69,10 +69,15 @@ const Nav = ()=>{
                 />
                 <button id="search-btn">🔍</button>
             </div>
+            <div id="auth-buttons">
+                <Link to="/signin">
+                    <button id="login-btn">Log In</button>
+                </Link>
 
-            <Link to="/Register" id="sign">
-                <button id="signup">Sign Up</button>
-            </Link>
+                <Link to="/Register" id="sign">
+                    <button id="signup">Sign Up</button>
+                </Link>
+            </div>
         </div>
 
     )
