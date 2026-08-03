@@ -5,6 +5,7 @@ import dns from 'dns';
 
 dotenv.config();
 dns.setServers(['8.8.8.8', '1.1.1.1']);
+const PORT = process.env.PORT_E || 4001;
 
 const app = express();
 app.use(express.json());
@@ -14,6 +15,6 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log("Server started");
 });
