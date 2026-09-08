@@ -9,7 +9,7 @@ const Nav = ()=>{
             <img src={logo} alt="Logo" id="logo" />
             <div id="com">
                 <ul>
-                    <li className="navhover">Home</li>
+                    <li className="navhover"><Link to="/">Home</Link></li>
                     <li className="dropdown navhover">Electronics
                         <ul className="dropdown-menu">
                             <li>Mobiles</li>

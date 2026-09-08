@@ -1,10 +1,16 @@
 // Register.jsx
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./register.css";
 
 const Register = () => {
+      const containerRef = useRef(null);
+
+    useEffect(() => {
+        containerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, []);
+
   return (
-    <div id="register">
+    <div id="register" ref={containerRef}>
       <div className="register-box">
         <div id="registertxt">
           <h1>Create Account</h1>

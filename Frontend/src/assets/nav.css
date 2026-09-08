@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 nav,ul,#navmain{
     display: flex;
     justify-content: space-around;
@@ -14,6 +15,10 @@ nav,ul,#navmain{
 }
 #com{
     margin-right: 80px;
+}
+#com a{
+    text-decoration: none;
+    color: inherit;
 }
 
 #logo{
